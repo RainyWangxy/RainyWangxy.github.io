@@ -51,7 +51,7 @@
                                     src="lihong.jpg"
                                     alt="avatar">
                                 <div class="author-info__name">Wangxy</div>
-                                <div class="author-info__description">00后学生, 学生，实习</div>
+                                <div class="author-info__description">00后学生， 学生，科研， 实习</div>
                             </div>
                             <div class="card-info-social-icons is-center">
                                 <a class="social-icon" href="https://github.com/RainyWangxy" target="_blank">
@@ -146,18 +146,20 @@
                 </article>
             </div>
         </main>
-        <footer id="footer">
+        <!-- <footer id="footer">
             <div id="footer-wrap">
                 <div class="copyright">&copy;2019 - 2021 BY Bucaicai</div>
             </div>
-        </footer>
+        </footer> -->
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
     <!-- aplayer、meting -->
+
     <!-- require APlayer -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
     <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
@@ -167,13 +169,6 @@
     <!-- nplayer -->
     <script src="https://unpkg.com/nplayer@latest/dist/index.min.js"></script>
 
-    <!--   一言、今日诗词   -->
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-
-    <!-- 看板娘 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 
     <!--鼠标点击效果-->
     <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
@@ -228,22 +223,22 @@
         });
 
         // 浏览器搞笑标题
-        var OriginTitle = document.title;
-        var titleTime;
-        document.addEventListener('visibilitychange', function () {
-            if (document.hidden) {
-                // $('[rel="icon"]').attr('href', "/funny.ico");
-                document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
-                clearTimeout(titleTime);
-            }
-            else {
-                $('[rel="icon"]').attr('href', "/favicon.ico");
-                document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
-                titleTime = setTimeout(function () {
-                    document.title = OriginTitle;
-                }, 2000);
-            }
-        });
+        // var OriginTitle = document.title;
+        // var titleTime;
+        // document.addEventListener('visibilitychange', function () {
+        //     if (document.hidden) {
+        //         // $('[rel="icon"]').attr('href', "/funny.ico");
+        //         document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
+        //         clearTimeout(titleTime);
+        //     }
+        //     else {
+        //         $('[rel="icon"]').attr('href', "/favicon.ico");
+        //         document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
+        //         titleTime = setTimeout(function () {
+        //             document.title = OriginTitle;
+        //         }, 2000);
+        //     }
+        // });
     </script>
 </body>
 
