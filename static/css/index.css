@@ -169,6 +169,20 @@ h1 {
     transition-property: width, background-color;
 }
 .skills-title {padding-left: 1.2rem}
+
+
+.author-info__edu {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #344c67;
+}
+.author-info__edu i {
+    margin-right: 6px;
+    color: #49b1f5;
+}
+
+
+
 .skillbar .skillbar-title {
     position: absolute;
     top: 0;
