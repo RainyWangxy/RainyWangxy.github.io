@@ -168,7 +168,7 @@ h1 {
     -o-transition-property: width, background-color;
     transition-property: width, background-color;
 }
-
+.skills-title {padding-left: 1.2rem}
 .skillbar .skillbar-title {
     position: absolute;
     top: 0;
@@ -259,7 +259,7 @@ aside_content .card-info .author-info__description {
     display: inline-block;
 }
 #aside_content .card-webinfo .webinfo .webinfo-item div:last-child {
-    float: right;
+    display: inline-block;
 }
 #footer {
     position: relative;
